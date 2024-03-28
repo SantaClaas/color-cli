@@ -1,0 +1,19 @@
+{
+  "name": "color-cli",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Generate material color theme in the cli",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js 0x008000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Claas",
+  "license": "MIT",
+  "dependencies": {
+    "@material/material-color-utilities": "^0.2.7"
+  },
+  "bin": {
+    "color-cli": "./index.js"
+  }
+}
