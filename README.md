@@ -5,7 +5,7 @@ A small utility to create a theme with the material color utilities to quickly c
 ## Usage
 
 ```
-npx color-cli 0x008000
+node index.js 0x008000
 ```
 
 Colors are passed as numbers e.g. "#008000" is 0x008000
@@ -13,5 +13,5 @@ Colors are passed as numbers e.g. "#008000" is 0x008000
 ### Writing to file (unix)
 
 ```
-npx color-cli 0x008000 > theme.json
+node index.js 0x008000 > theme.json
 ```
